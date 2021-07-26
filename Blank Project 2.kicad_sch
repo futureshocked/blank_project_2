@@ -95,7 +95,7 @@
   )
 
 
-  (label "Project name: " (at 129.54 110.49 0)
+  (label "Example change on Github (was Project name): " (at 129.54 110.49 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 29ef10bd-8bb7-4b14-8358-c5a4b2e19438)
   )
