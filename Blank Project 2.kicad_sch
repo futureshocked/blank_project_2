@@ -233,6 +233,25 @@
     (pin "2" (uuid 033fc9c8-2d52-4cac-aa6e-a9c52a39b087))
   )
 
+  (symbol (lib_id "Device:C") (at 118.11 135.89 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 3aa0c9ce-fb78-4c3d-990c-6185a3da4c4f)
+    (property "Reference" "C6" (id 0) (at 121.92 134.6199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (id 1) (at 121.92 137.1599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 119.0752 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 118.11 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6d970979-3f85-4d8e-8b6f-6c461a896725))
+    (pin "2" (uuid 7927d373-ba09-435c-87cd-dd01927d178c))
+  )
+
   (symbol (lib_id "Device:C") (at 129.54 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 11d8ef45-72e8-45b9-9056-a3426f46eb61)
@@ -347,6 +366,9 @@
     )
     (path "/c6245e49-fcd5-4a3f-861e-9faec374014a"
       (reference "C5") (unit 1) (value "50u") (footprint "")
+    )
+    (path "/3aa0c9ce-fb78-4c3d-990c-6185a3da4c4f"
+      (reference "C6") (unit 1) (value "10u") (footprint "")
     )
     (path "/d50c0195-bb23-4c47-b9e0-34e366d968a2"
       (reference "R1") (unit 1) (value "100R") (footprint "")
